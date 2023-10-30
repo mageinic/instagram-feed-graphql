@@ -1,0 +1,29 @@
+{
+      "name": "mageinic/module-instagramfeedgraphql",
+      "description": "Magento 2 Instagram Feed Graphql Extension",
+      "require": {
+            "php": "^8.0",
+            "mageinic/core": "1.0.*",
+            "mageinic/module-instagramfeed": "1.0.*"
+        },
+      "type": "magento2-module",
+      "version": "1.0.0",
+      "license": [
+        "Commercial"
+        ],
+        "authors": [
+            {
+                "name": "MageINIC",
+                "email": "support@mageinic.com",
+                "homepage": "https://www.mageinic.com"
+            }
+        ],
+        "autoload": {
+            "files": [
+                "registration.php"
+            ],
+            "psr-4": {
+          "MageINIC\\InstagramFeedGraphQl\\": ""
+        }
+      }
+}
