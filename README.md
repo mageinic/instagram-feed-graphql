@@ -7,7 +7,7 @@
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageinic/product-attachment-graph-ql
+composer require mageinic/instagram-feed-graphql
 
 php bin/magento maintenance:enable
 php bin/magento setup:upgrade
@@ -22,7 +22,7 @@ Magento 2 Instagram Feed GraphQL requires installing [MageINIC Instagram Feed](h
 
 **Or Install via composer [Recommend]**
 ```
-composer require mageinic/module-instagramfeed
+composer require mageinic/instagram-feed
 ```
 
 ## 2. How to use
